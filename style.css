@@ -195,6 +195,27 @@ section .card {
     box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
     padding: 1rem;
     border-radius: 10px;
+    position: relative;
+}
+
+section .card .expand{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 0;
+    height: 0;
+    z-index: -10;
+    background-color: #0061df;
+    transition: .3s linear;
+}
+
+section .card:hover .expand{
+    width: 100%;
+    height: 100%;
+}
+
+section .card:hover *{
+    color: white;
 }
 
 section .card h1 {
@@ -433,6 +454,12 @@ footer p {
     }
 
     .ex-container,.ex-container-two{
+        padding: 1rem;
+    }
+}
+
+@media (max-width:600px){
+    .ex-container{
         padding: 1rem;
     }
 }
