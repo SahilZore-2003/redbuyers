@@ -7,20 +7,20 @@
     font-family: "poppins";
 }
 
-html{
+html {
     scroll-behavior: smooth;
 }
 
-::-webkit-scrollbar{
+::-webkit-scrollbar {
     width: 5px;
     background-color: #ffffff;
 }
 
-::-webkit-scrollbar-thumb{
+::-webkit-scrollbar-thumb {
     background-color: #6da0e4;
 }
 
-body{
+body {
     background-color: white;
 }
 
@@ -50,7 +50,7 @@ li {
     flex-direction: column;
 }
 
-img{
+img {
     width: 100%;
     height: auto;
     object-fit: cover;
@@ -68,9 +68,9 @@ nav {
     color: white;
 }
 
-nav .logo {   
-    color: #ffffff; 
-    font-size: 25px;  
+nav .logo {
+    color: #ffffff;
+    font-size: 25px;
 }
 
 nav .links a {
@@ -96,15 +96,15 @@ nav .links a {
     transition: .2s linear;
 }
 
-nav .links a:hover{
+nav .links a:hover {
     color: #0061df;
 }
 
-.links button{
+.links button {
     transition: .2s linear;
 }
 
-.links button:hover{
+.links button:hover {
     background-color: #0061df;
     color: white;
     border-radius: 10px;
@@ -124,7 +124,7 @@ header {
 
 header .content {
     background-color: #f8f8f8;
-    
+
     width: 30%;
     padding: 2rem;
     height: 100%;
@@ -154,7 +154,8 @@ header .content {
 
 
 
-.content div button, button{
+.content div button,
+button {
     background-color: #0061df;
     border: none;
     color: white;
@@ -170,55 +171,56 @@ header .content {
     transition: .3s linear;
 }
 
-.content div button:last-child:hover{
+.content div button:last-child:hover {
     background-color: #0061df;
     color: white;
 }
 
-section{
-   padding: 3rem 0 5rem;
+section {
+    padding: 3rem 0 5rem;
 }
 
-section h1{
+section h1 {
     font-size: 2.2rem;
     color: #005dde;
 }
 
-section p{
+section p {
     color: #828487;
     margin: 10px 0;
 }
 
-section .card{
+section .card {
     width: 25%;
     box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
     padding: 1rem;
     border-radius: 10px;
 }
-section .card h1{
+
+section .card h1 {
     color: #3d3d3d;
     font-size: 1.4rem;
 }
 
-section .card-container{
+section .card-container {
     padding: 2rem 0 3rem;
     justify-content: space-around;
 }
 
-section .card a{
+section .card a {
     color: #005dde;
 }
 
-section .card-content{
-   margin-top: 1rem;
+section .card-content {
+    margin-top: 1rem;
 }
 
-.card .img-container{
+.card .img-container {
     display: grid;
-    place-items:center ;
+    place-items: center;
 }
 
-.card .img-container div{
+.card .img-container div {
     width: 100px;
     height: 100px;
     border-radius: 50%;
@@ -227,40 +229,40 @@ section .card-content{
 
 /* section next exclusive  */
 
-#exclusives{
+#exclusives {
     padding-top: 0;
 }
 
-.ex-container{
+.ex-container {
     display: flex;
     align-items: center;
     justify-content: space-between;
     margin: 2rem;
     box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
     padding: 2.5rem;
-    border-radius:1rem 1rem 0 0;
-   
+    border-radius: 1rem 1rem 0 0;
+
 }
 
-.ex-container div:first-child{
+.ex-container div:first-child {
     flex-basis: 60%;
 }
 
-.ex-container div:last-child{
+.ex-container div:last-child {
     flex-basis: 30%;
 }
 
-.ex-container button{
+.ex-container button {
     padding: 1rem 1.5rem;
     border-radius: 10px;
 }
 
-.ex-container img{
+.ex-container img {
     border-radius: 1rem;
     box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
 }
 
-.ex-container-two{
+.ex-container-two {
     display: flex;
     align-items: center;
     justify-content: space-between;
@@ -269,39 +271,40 @@ section .card-content{
     margin: 2rem;
     box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
     padding: 2.5rem;
-    border-radius:0 0 1rem 1rem;
+    border-radius: 0 0 1rem 1rem;
     transform: translateY(-35px);
 }
 
 
-.ex-container-two div:first-child{
+.ex-container-two div:first-child {
     flex-basis: 30%;
 }
 
-.ex-container-two div:last-child{
+.ex-container-two div:last-child {
     flex-basis: 60%;
 }
 
-.ex-container-two button{
+.ex-container-two button {
     padding: 1rem 1.5rem;
     border-radius: 10px;
 }
 
-.ex-container-two img{
+.ex-container-two img {
     border-radius: 1rem;
     box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
 }
 
-.ex-container-two h1,.ex-container-two p{
+.ex-container-two h1,
+.ex-container-two p {
     color: white;
 }
 
-.ex-container-two button{
+.ex-container-two button {
     background-color: white;
     color: #0061df;
 }
 
-#transperant-img{
+#transperant-img {
     width: 100%;
     height: auto;
     object-fit: contain;
@@ -309,7 +312,7 @@ section .card-content{
 
 /* footer  */
 
-footer{
+footer {
     background-color: #112337;
     padding: 1rem;
     color: white;
@@ -318,39 +321,39 @@ footer{
     justify-content: space-between;
 }
 
-footer i{
+footer i {
     padding-right: 8px;
 }
 
-footer p{
+footer p {
     font-size: .9rem;
 }
 
-.copyright{
+.copyright {
     border-top: 1px solid white;
 }
 
-#closenav{
+#closenav {
     display: none;
 }
 
-#activenav{
+#activenav {
     font-size: 1.5rem;
 }
 
 
 /* responsive ness  */
 
-@media (max-width:1050px){
-    header .content{
+@media (max-width:1050px) {
+    header .content {
         width: 50%;
     }
 
-    .card-container{
+    .card-container {
         flex-direction: column;
     }
 
-    .card{
+    .card {
         margin-top: 2rem;
         max-width: 700px;
         width: 90% !important;
@@ -360,7 +363,7 @@ footer p{
         flex-direction: column;
     }
 
-    .ex-container img{
+    .ex-container img {
         margin-top: 2rem;
     }
 
@@ -368,26 +371,26 @@ footer p{
         flex-direction: column;
     }
 
-    .ex-container-two img{
+    .ex-container-two img {
         margin-top: 2rem;
     }
 }
 
-@media (max-width:750px){
-    footer{
+@media (max-width:750px) {
+    footer {
         flex-direction: column;
     }
 
-    .main-footer div{
+    .main-footer div {
         margin-top: 1rem;
     }
 
-    header .content{
+    header .content {
         width: 100%;
         height: auto;
     }
 
-    .links div{
+    .links div {
         position: fixed;
         top: 0;
         left: 0;
@@ -400,15 +403,15 @@ footer p{
         z-index: 1000;
     }
 
-    .links div a{
+    .links div a {
         display: block;
     }
 
-    .links div *{
+    .links div * {
         margin-top: 10px;
     }
 
-    #closenav{
+    #closenav {
         position: absolute;
         top: 5%;
         right: 5%;
@@ -417,15 +420,19 @@ footer p{
     }
 }
 
-@media (min-width:750px){
-    #activenav{
+@media (min-width:750px) {
+    #activenav {
         display: none;
     }
 
-    
-nav .links div{
-    display: flex;
-    gap: 30px;
-    align-items: center;
-}
+
+    nav .links div {
+        display: flex;
+        gap: 30px;
+        align-items: center;
+    }
+
+    .ex-container,.ex-container-two{
+        padding: 1rem;
+    }
 }
