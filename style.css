@@ -459,7 +459,7 @@ footer p {
 }
 
 @media (max-width:600px){
-    .ex-container{
+    .ex-container,.ex-container-two{
         padding: 1rem;
     }
 }
